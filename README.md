@@ -1,6 +1,6 @@
 # DriverMode (name subject to change)
 
-The airplane mode for driving. This setting (starting in iOS) will allow drivers to disable certain incoming notifications that can serve as on-road distractions.
+The airplane mode for driving. This setting (starting in iOS) will allow drivers to disable certain incoming notifications that can serve as on-road distractions and much more.
 
 Features to be implemented:
  - Turn off incoming notifications (Banners and Alerts) by switching all app alerts to "None" when the setting is enabled. Also toggle off "Show on Lock Screen" setting. 
