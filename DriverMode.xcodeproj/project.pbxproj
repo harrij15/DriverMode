@@ -15,6 +15,7 @@
 		FC4170D81CF415F90017634A /* DriverModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4170D71CF415F90017634A /* DriverModeTests.swift */; };
 		FC4170E31CF415F90017634A /* DriverModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4170E21CF415F90017634A /* DriverModeUITests.swift */; };
 		FC4170F31CF41EEB0017634A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4170F21CF41EEA0017634A /* Settings.bundle */; };
+		FCBED8C01D07BC00009BAF6C /* ExceptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBED8BF1D07BC00009BAF6C /* ExceptionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FC4170E21CF415F90017634A /* DriverModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverModeUITests.swift; sourceTree = "<group>"; };
 		FC4170E41CF415F90017634A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4170F21CF41EEA0017634A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		FCBED8BF1D07BC00009BAF6C /* ExceptionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExceptionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				FC4170C21CF415F90017634A /* AppDelegate.swift */,
 				FC4170C41CF415F90017634A /* ViewController.swift */,
+				FCBED8BF1D07BC00009BAF6C /* ExceptionTableViewController.swift */,
 				FC4170C61CF415F90017634A /* Main.storyboard */,
 				FC4170C91CF415F90017634A /* Assets.xcassets */,
 				FC4170CB1CF415F90017634A /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				FC4170C51CF415F90017634A /* ViewController.swift in Sources */,
 				FC4170C31CF415F90017634A /* AppDelegate.swift in Sources */,
+				FCBED8C01D07BC00009BAF6C /* ExceptionTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +497,7 @@
 				FC4170E91CF415F90017634A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC4170EA1CF415F90017634A /* Build configuration list for PBXNativeTarget "DriverModeTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +506,7 @@
 				FC4170EC1CF415F90017634A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC4170ED1CF415F90017634A /* Build configuration list for PBXNativeTarget "DriverModeUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +515,7 @@
 				FC4170EF1CF415F90017634A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
