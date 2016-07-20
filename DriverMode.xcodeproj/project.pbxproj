@@ -15,6 +15,12 @@
 		FC4170D81CF415F90017634A /* DriverModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4170D71CF415F90017634A /* DriverModeTests.swift */; };
 		FC4170E31CF415F90017634A /* DriverModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4170E21CF415F90017634A /* DriverModeUITests.swift */; };
 		FC4170F31CF41EEB0017634A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC4170F21CF41EEA0017634A /* Settings.bundle */; };
+		FCAECF041D3FDCB40041F678 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAECF031D3FDCB40041F678 /* NotificationCenter.framework */; };
+		FCAECF071D3FDCB50041F678 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAECF061D3FDCB40041F678 /* TodayViewController.swift */; };
+		FCAECF0A1D3FDCB50041F678 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAECF081D3FDCB50041F678 /* MainInterface.storyboard */; };
+		FCAECF0E1D3FDCB50041F678 /* DriverMode Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FCAECF011D3FDCB40041F678 /* DriverMode Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCAECF161D3FE3DC0041F678 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAECF151D3FE3DC0041F678 /* MapKit.framework */; };
+		FCAECF181D3FE4070041F678 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAECF171D3FE4070041F678 /* AudioToolbox.framework */; };
 		FCBED8C01D07BC00009BAF6C /* ExceptionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBED8BF1D07BC00009BAF6C /* ExceptionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +39,28 @@
 			remoteGlobalIDString = FC4170BE1CF415F90017634A;
 			remoteInfo = DriverMode;
 		};
+		FCAECF0C1D3FDCB50041F678 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4170B71CF415F90017634A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAECF001D3FDCB40041F678;
+			remoteInfo = "DriverMode Widget";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCAECF121D3FDCB50041F678 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCAECF0E1D3FDCB50041F678 /* DriverMode Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FC4170BF1CF415F90017634A /* DriverMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriverMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +77,15 @@
 		FC4170E21CF415F90017634A /* DriverModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverModeUITests.swift; sourceTree = "<group>"; };
 		FC4170E41CF415F90017634A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4170F21CF41EEA0017634A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		FCAECF011D3FDCB40041F678 /* DriverMode Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DriverMode Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAECF031D3FDCB40041F678 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		FCAECF061D3FDCB40041F678 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		FCAECF091D3FDCB50041F678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FCAECF0B1D3FDCB50041F678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAECF131D3FE3A60041F678 /* DriverMode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = DriverMode.entitlements; sourceTree = "<group>"; };
+		FCAECF141D3FE3C40041F678 /* DriverMode Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "DriverMode Widget.entitlements"; sourceTree = "<group>"; };
+		FCAECF151D3FE3DC0041F678 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FCAECF171D3FE4070041F678 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		FCBED8BF1D07BC00009BAF6C /* ExceptionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExceptionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAECF161D3FE3DC0041F678 /* MapKit.framework in Frameworks */,
+				FCAECF181D3FE4070041F678 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +113,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCAECEFE1D3FDCB40041F678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAECF041D3FDCB40041F678 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +131,8 @@
 				FC4170C11CF415F90017634A /* DriverMode */,
 				FC4170D61CF415F90017634A /* DriverModeTests */,
 				FC4170E11CF415F90017634A /* DriverModeUITests */,
+				FCAECF051D3FDCB40041F678 /* DriverMode Widget */,
+				FCAECF021D3FDCB40041F678 /* Frameworks */,
 				FC4170C01CF415F90017634A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +143,7 @@
 				FC4170BF1CF415F90017634A /* DriverMode.app */,
 				FC4170D31CF415F90017634A /* DriverModeTests.xctest */,
 				FC4170DE1CF415F90017634A /* DriverModeUITests.xctest */,
+				FCAECF011D3FDCB40041F678 /* DriverMode Widget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +151,7 @@
 		FC4170C11CF415F90017634A /* DriverMode */ = {
 			isa = PBXGroup;
 			children = (
+				FCAECF131D3FE3A60041F678 /* DriverMode.entitlements */,
 				FC4170C21CF415F90017634A /* AppDelegate.swift */,
 				FC4170C41CF415F90017634A /* ViewController.swift */,
 				FCBED8BF1D07BC00009BAF6C /* ExceptionTableViewController.swift */,
@@ -131,6 +181,27 @@
 			path = DriverModeUITests;
 			sourceTree = "<group>";
 		};
+		FCAECF021D3FDCB40041F678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCAECF171D3FE4070041F678 /* AudioToolbox.framework */,
+				FCAECF151D3FE3DC0041F678 /* MapKit.framework */,
+				FCAECF031D3FDCB40041F678 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCAECF051D3FDCB40041F678 /* DriverMode Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FCAECF141D3FE3C40041F678 /* DriverMode Widget.entitlements */,
+				FCAECF061D3FDCB40041F678 /* TodayViewController.swift */,
+				FCAECF081D3FDCB50041F678 /* MainInterface.storyboard */,
+				FCAECF0B1D3FDCB50041F678 /* Info.plist */,
+			);
+			path = "DriverMode Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +212,12 @@
 				FC4170BB1CF415F90017634A /* Sources */,
 				FC4170BC1CF415F90017634A /* Frameworks */,
 				FC4170BD1CF415F90017634A /* Resources */,
+				FCAECF121D3FDCB50041F678 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCAECF0D1D3FDCB50041F678 /* PBXTargetDependency */,
 			);
 			name = DriverMode;
 			productName = DriverMode;
@@ -187,6 +260,23 @@
 			productReference = FC4170DE1CF415F90017634A /* DriverModeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		FCAECF001D3FDCB40041F678 /* DriverMode Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAECF111D3FDCB50041F678 /* Build configuration list for PBXNativeTarget "DriverMode Widget" */;
+			buildPhases = (
+				FCAECEFD1D3FDCB40041F678 /* Sources */,
+				FCAECEFE1D3FDCB40041F678 /* Frameworks */,
+				FCAECEFF1D3FDCB40041F678 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DriverMode Widget";
+			productName = "DriverMode Widget";
+			productReference = FCAECF011D3FDCB40041F678 /* DriverMode Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,6 +290,17 @@
 					FC4170BE1CF415F90017634A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZN9B66JMKF;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					FC4170D21CF415F90017634A = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -208,6 +309,15 @@
 					FC4170DD1CF415F90017634A = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = FC4170BE1CF415F90017634A;
+					};
+					FCAECF001D3FDCB40041F678 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZN9B66JMKF;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -227,6 +337,7 @@
 				FC4170BE1CF415F90017634A /* DriverMode */,
 				FC4170D21CF415F90017634A /* DriverModeTests */,
 				FC4170DD1CF415F90017634A /* DriverModeUITests */,
+				FCAECF001D3FDCB40041F678 /* DriverMode Widget */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +365,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAECEFF1D3FDCB40041F678 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAECF0A1D3FDCB50041F678 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +405,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCAECEFD1D3FDCB40041F678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAECF071D3FDCB50041F678 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -298,6 +425,11 @@
 			isa = PBXTargetDependency;
 			target = FC4170BE1CF415F90017634A /* DriverMode */;
 			targetProxy = FC4170DF1CF415F90017634A /* PBXContainerItemProxy */;
+		};
+		FCAECF0D1D3FDCB50041F678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAECF001D3FDCB40041F678 /* DriverMode Widget */;
+			targetProxy = FCAECF0C1D3FDCB50041F678 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -316,6 +448,14 @@
 				FC4170CC1CF415F90017634A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAECF081D3FDCB50041F678 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAECF091D3FDCB50041F678 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -408,8 +548,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DriverMode/DriverMode.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DriverMode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harrij15.DriverMode;
@@ -422,8 +564,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DriverMode/DriverMode.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DriverMode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harrij15.DriverMode;
@@ -478,6 +622,34 @@
 			};
 			name = Release;
 		};
+		FCAECF0F1D3FDCB50041F678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DriverMode Widget/DriverMode Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "DriverMode Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harrij15.DriverMode.DriverMode-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCAECF101D3FDCB50041F678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "DriverMode Widget/DriverMode Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "DriverMode Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.harrij15.DriverMode.DriverMode-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +688,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		FCAECF111D3FDCB50041F678 /* Build configuration list for PBXNativeTarget "DriverMode Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAECF0F1D3FDCB50041F678 /* Debug */,
+				FCAECF101D3FDCB50041F678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
